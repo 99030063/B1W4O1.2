@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <link rel="stylesheet" href="style.css">
+   <style>
+   @font-face {font-family:JI Swiss Cheese; src: url("JI Swiss Cheese.ttf");} 
+   </style>
+</head>
+      <body>
+        <div id="response">
+            <p id="vraag"></p>
+            <br>
+            <button type="button" onclick="answerQuestion(0, true)" id="ja">Ja</button>  
+            <button type="button" onclick="answerQuestion(0, false)" id="nee">Nee</button>
+            <br><br>
+        </div>
+        <br><br>
+        <p id="antwoord"></p>
+        <br>
+        <span id="buttonAppear"></span>
+        <script src='vragen.js'></script>
+        <script src="kaas.js"></script>
+      </body>
+   
+</html>
